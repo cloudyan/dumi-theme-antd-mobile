@@ -47,7 +47,7 @@ export const sidebar = {
     },
     {
       title: 'About Experimental',
-      path: '/zh/guide/what-is-experimental',
+      path: '/en/guide/what-is-experimental',
     },
     {
       title: 'HD',

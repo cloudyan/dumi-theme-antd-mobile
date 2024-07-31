@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 import { resolve } from 'path';
-// import { sidebar } from './config/sidebar';
 import { nav } from './config/nav';
+// import { sidebar } from './config/sidebar';
 
 console.log('__dirname', resolve(__dirname, '../../packages/antd-mobile/src'))
 

@@ -14,12 +14,16 @@
   },
   "keywords": [
     "dumi",
-    "dumi-theme"
+    "dumi theme",
+    "mobile library"
   ],
   "authors": [
     "1395093509@qq.com"
   ],
   "license": "MIT",
+  "sideEffects": [
+    "**/*.less"
+  ],
   "files": [
     "dist"
   ],
@@ -71,6 +75,8 @@
     "stylelint": "^14.9.1"
   },
   "dependencies": {
+    "@ant-design/icons-svg": "^4.2.1",
+    "f2-touchemulator": "^0.0.1",
     "@ant-design/icons": "^5.4.0",
     "ahooks": "^3.8.0",
     "antd": "^4.24.16",
@@ -81,6 +87,7 @@
     "prism-react-renderer": "^2.3.1",
     "prismjs": "^1.29.0",
     "qrcode.react": "^3.1.0",
-    "react-lottie": "^1.2.4"
+    "react-lottie": "^1.2.4",
+    "umi-hd": "^5.0.1"
   }
 }
